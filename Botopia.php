@@ -1,6 +1,6 @@
 <?php
 /**
- * Labor -- the new look of wiki.das-labor.org.  Based on Tyrian from gentoo.org
+ * Botopia
  * MediaWiki implementation based on MonoBook nouveau.
  *
  * Copyright (C) 2014-2015 Alex Legler <a3li@gentoo.org>
@@ -8,28 +8,28 @@
 
 $wgExtensionCredits['skin'][] = array(
 	'path' => __FILE__,
-	'name' => 'Labor',
-	'namemsg' => 'skinname-labor',
-	'descriptionmsg' => 'labor-desc',
+	'name' => 'Botopia',
+	'namemsg' => 'skinname-botopia',
+	'descriptionmsg' => 'botopia-desc',
 	'url' => 'https://wiki.das-labor.org/',
 	'author' => array('Marcus Brinkmann'),
 	'license-name' => 'GPLv2',
 );
 
 // Register files
-$wgAutoloadClasses['SkinLabor'] = __DIR__ . '/SkinLabor.php';
-$wgAutoloadClasses['LaborTemplate'] = __DIR__ . '/LaborTemplate.php';
-$wgMessagesDirs['Labor'] = __DIR__ . '/i18n';
+$wgAutoloadClasses['SkinBotopia'] = __DIR__ . '/SkinBotopia.php';
+$wgAutoloadClasses['BotopiaTemplate'] = __DIR__ . '/BotopiaTemplate.php';
+$wgMessagesDirs['Botopia'] = __DIR__ . '/i18n';
 
 // Register skin
-$wgValidSkinNames['labor'] = 'Labor';
+$wgValidSkinNames['botopia'] = 'Botopia';
 
 // Register modules
-$wgResourceModules['skins.labor.styles'] = array(
+$wgResourceModules['skins.botopia.styles'] = array(
 	'styles' => array(
 		'main.css' => array('media' => 'screen'),
 	),
-	'remoteSkinPath' => 'Labor',
+	'remoteSkinPath' => 'Botopia',
 	'localBasePath' => __DIR__,
 );
 
