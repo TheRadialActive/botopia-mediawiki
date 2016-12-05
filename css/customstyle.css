@@ -1,6 +1,6 @@
 @font-face { font-family: Montreal; src: url(../fonts/Montreal-Regular.ttf); }
 .laborlogo { font-family: Montreal; position: relative; top: -10px; }
-.laborlogomain { font-size: 48pt; color: #eee; }
+.laborlogomain { font-size: 35pt; color: #eee; }
 .laborlogohigh { color: #f60; }
 
 .navbar-default {
@@ -347,8 +347,8 @@ body {
   min-height: 40px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-  background-color: #114;
-  border-color: #463c65;
+  background-color: #004b0b;
+  border-color: #004b0b88;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54487a', endColorstr='#ff493f6a', GradientType=0);
   z-index: 1000;
   border-width: 0 0 1px;
@@ -401,7 +401,7 @@ body {
 }
 .tyrian-navbar .navbar-collapse,
 .tyrian-navbar .navbar-form {
-  border-color: #463c65;
+  border-color: #004b0b88;
 }
 .tyrian-navbar .navbar-nav > .open > a,
 .tyrian-navbar .navbar-nav > .open > a:hover,
