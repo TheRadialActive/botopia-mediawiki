@@ -114,7 +114,7 @@ textarea {
 }
 .site-title {
   /*background-image: url('../images/header.jpg');*/
-  background-color: #e1e1e1;
+  background-color: #004b0b;
   background-position: 0px -150px;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbeb8db', endColorstr='#ffdddaec', GradientType=0);
