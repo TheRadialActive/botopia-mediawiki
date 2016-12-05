@@ -3012,3 +3012,22 @@ input[id*='mw-input-wpsmw-']
 {
   height: 14px; 
 }
+
+.project-box {
+  width: 30em; 
+  font-size: 90%; 
+  border: 1px solid silver; 
+  color: black; 
+  margin-bottom: 0.5em; 
+  margin-left: 1em; 
+  padding: 0.2em; 
+  float: right; 
+  clear: right; 
+  text-align:left;
+}
+
+.project-box-title {
+  text-align: center; 
+  background-color: #003600;
+  color: #eeeeee;
+}
