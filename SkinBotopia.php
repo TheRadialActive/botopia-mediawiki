@@ -10,7 +10,7 @@
  * Inherit main code from SkinTemplate, set the CSS and template filter.
  * @ingroup Skins
  */
-class SkinLabor extends SkinTemplate {
+class SkinBotopia extends SkinTemplate {
 	public $skinname  = 'botopia';
 	public $stylename = 'Botopia';
 	public $template  = 'BotopiaTemplate';
