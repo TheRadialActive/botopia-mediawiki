@@ -375,7 +375,7 @@ body {
 .tyrian-navbar .navbar-nav > li > a:hover,
 .tyrian-navbar .navbar-nav > li > a:focus {
   color: #eeeeee;
-  background-color: #4b406d;
+  background-color: #004b0b77;
 }
 .tyrian-navbar .navbar-nav > .active > a,
 .tyrian-navbar .navbar-nav > .active > a:hover,
@@ -416,7 +416,7 @@ body {
   .tyrian-navbar .navbar-nav .open .dropdown-menu > li > a:hover,
   .tyrian-navbar .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #eeeeee;
-    background-color: #4b406d;
+    background-color: #004b0b77;
   }
   .tyrian-navbar .navbar-nav .open .dropdown-menu > .active > a,
   .tyrian-navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
