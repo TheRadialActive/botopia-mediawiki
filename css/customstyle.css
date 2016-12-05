@@ -113,10 +113,7 @@ textarea {
   user-select: none;
 }
 .site-title {
-  /*background-image: url('../images/header.jpg');*/
-  background-color: #004b0b;
-  background-position: 0px -150px;
-  background-repeat: repeat-x;
+  background-color: #003600;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbeb8db', endColorstr='#ffdddaec', GradientType=0);
   background-color: #eeeeee;
   -webkit-touch-callout: none;
