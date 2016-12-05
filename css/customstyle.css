@@ -114,8 +114,6 @@ textarea {
 }
 .site-title {
   background-color: #003600;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbeb8db', endColorstr='#ffdddaec', GradientType=0);
-  background-color: #eeeeee;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
