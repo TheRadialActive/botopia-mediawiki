@@ -1,5 +1,5 @@
-@font-face { font-family: Labor; src: url(../fonts/laborone/LaborOne-Black.ttf); }
-.laborlogo { font-family: Labor; position: relative; top: -10px; }
+@font-face { font-family: Montreal; src: url(../fonts/Montreal-Regular.ttf); }
+.laborlogo { font-family: Montreal; position: relative; top: -10px; }
 .laborlogomain { font-size: 48pt; color: #eee; }
 .laborlogohigh { color: #f60; }
 
