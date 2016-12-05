@@ -1,11 +1,11 @@
 <?php
 /**
- * Labor -- the new look of wiki.das-labor.org
+ * Botopia
  * MediaWiki implementation based on MonoBook nouveau.
  *
  * Copyright (C) 2014-2015 Alex Legler <a3li@gentoo.org>
  */
-class LaborTemplate extends BaseTemplate {
+class BotopiaTemplate extends BaseTemplate {
 	function execute() {
 		wfSuppressWarnings();
 
@@ -62,9 +62,9 @@ class LaborTemplate extends BaseTemplate {
 
 		<?php $this->footer(); ?>
 
-                <script src="<?php $this->text('stylepath') ?>/Labor/js/jquery-2.1.4.min.js"></script>
-		<script src="<?php $this->text('stylepath') ?>/Labor/js/bootstrap.min.js"></script>
-		<script src="<?php $this->text('stylepath') ?>/Labor/js/flatpickr/flatpickr.min.js"></script>
+                <script src="<?php $this->text('stylepath') ?>/Botopia/js/jquery-2.1.4.min.js"></script>
+		<script src="<?php $this->text('stylepath') ?>/Botopia/js/bootstrap.min.js"></script>
+		<script src="<?php $this->text('stylepath') ?>/Botopia/js/flatpickr/flatpickr.min.js"></script>
 		<script>
 			$(".make-me-a-date-time-picker").flatpickr({
 					 enableTime: true,
@@ -99,24 +99,18 @@ class LaborTemplate extends BaseTemplate {
 						<div class="btn-group btn-group-sm">
 							<div class="btn-group btn-group-sm">
 								<a class="btn gentoo-org-sites dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
-									<span class="fa fa-fw fa-map-o"></span> <span class="hidden-xs">Labor e.V. Webseiten</span> <span class="caret"></span>
+									<span class="fa fa-fw fa-map-o"></span> <span class="hidden-xs">Botopia Links</span> <span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu dropdown-menu-right">
-									<li><a href="https://das-labor.org/" title="Hauptseite"><span class="fa fa-home fa-fw"></span> das-labor.org</a></li>
-									<li><a href="https://wiki.das-labor.org/" title="Dokumentation"><span class="fa fa-file-text-o fa-fw"></span> Wiki</a></li>
-									<li><a href="https://github.com/das-labor/" title="Software, Vorlagen, Archive"><span class="fa fa-code fa-fw"></span> Software</a></li>
-									<li><a href="https://www.flickr.com/groups/daslabor/" title="Fotos"><span class="fa fa-picture-o fa-fw"></span> Fotos</a></li>
 									<li><a href="https://twitter.com/dasLabor" title="Twitter"><span class="fa fa-twitter fa-fw"></span> Twitter</a></li>
-									<li class="divider"></li>
-									<li><a href="https://chaos-west.de/wiki/index.php?title=Hauptseite" title="Chaos-West (Partner)"><span class="fa fa-group fa-fw"></span> Chaos-West</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 					<div class="logo">
-						<a href="/" title="Zurück zur Hauptseite" class="site-logo"><a href="" alt="Labor Logo"></a>
-						<!-- <span class="site-label">das labor</span> -->
-						<span class="laborlogo laborlogomain">das la<span class="laborlogohigh">bo</span>r</span>
+						<a href="/" title="Zurück zur Hauptseite" class="site-logo"><a href="" alt="Logo"></a>
+						<!-- <span class="site-label">Botopia</span> -->
+						<span class="laborlogo laborlogomain">Botopia</span>
 					</div>
 				</div>
 			</div>

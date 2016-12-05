@@ -1,5 +1,5 @@
 {
-	"name": "Labor",
+	"name": "Botopia",
 	"author": [
 		"Trevor Parscal",
 		"Roan Kattouw",
@@ -14,23 +14,23 @@
 		"MediaWiki": ">= 1.25.0"
 	},
 	"ConfigRegistry": {
-		"labor": "GlobalVarConfig::newInstance"
+		"botopia": "GlobalVarConfig::newInstance"
 	},
 	"ValidSkinNames": {
-		"labor": "Labor"
+		"botopia": "Botopia"
 	},
 	"MessagesDirs": {
-		"Labor": [
+		"botopia": [
 			"i18n"
 		]
 	},
 	"AutoloadClasses": {
-		"SkinLabor": "SkinLabor.php",
-		"LaborTemplate": "LaborTemplate.php"
+		"SkinBotopia": "SkinBotopia.php",
+		"BotopiaTemplate": "BotopiaTemplate.php"
 	},
 	"@note": "When modifying skins.vector.styles definition, make sure the installer still works",
 	"ResourceModules": {
-		"skins.labor.styles": {
+		"skins.botopia.styles": {
 			"position": "top",
 			"styles": {
 				"screen.less": {
@@ -41,7 +41,7 @@
 				}
 			}
 		},
-		"skins.labor.styles.responsive": {
+		"skins.botopia.styles.responsive": {
 			"position": "top",
 			"styles": {
 				"responsive.less": {
@@ -49,7 +49,7 @@
 				}
 			}
 		},
-		"skins.labor.js": {
+		"skins.botopia.js": {
 			"//scripts": [
 				"collapsibleTabs.js",
 				"vector.js"
@@ -63,10 +63,10 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Labor"
+		"remoteSkinPath": "Botopia"
 	},
 	"ResourceModuleSkinStyles": {
-		"//labor": {
+		"//botopia": {
 			"jquery.tipsy": "skinStyles/jquery.tipsy.less",
 			"jquery.ui.core": [
 				"skinStyles/jquery.ui/jquery.ui.core.css",
