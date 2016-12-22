@@ -1,5 +1,5 @@
-@font-face { font-family: Montreal; src: url(../fonts/Montreal-Regular.ttf); }
-.laborlogo { font-family: Montreal; position: relative; top: -10px; }
+@font-face { font-family: 'MontrealRegular'; src: url('/skins/Botopia/fonts/Montreal-Regular.ttf') format('truetype'); }
+.laborlogo { font-family: 'MontrealRegular'; position: relative; top: -10px; }
 .laborlogomain { font-size: 35pt; color: #eee; }
 .laborlogohigh { color: #f60; }
 
@@ -3030,4 +3030,9 @@ input[id*='mw-input-wpsmw-']
   text-align: center; 
   background-color: #003600;
   color: #eeeeee;
+  height: 30px;
+}
+
+.project-box-title tr {
+  padding: 5px;
 }
