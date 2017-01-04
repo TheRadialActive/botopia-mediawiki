@@ -3016,7 +3016,7 @@ input[id*='mw-input-wpsmw-']
 .project-box {
   width: 30em; 
   font-size: 90%; 
-  border: 1px solid silver; 
+  border: 3px solid #003600; 
   color: black; 
   margin-bottom: 0.5em; 
   margin-left: 1em; 
@@ -3024,6 +3024,10 @@ input[id*='mw-input-wpsmw-']
   float: right; 
   clear: right; 
   text-align:left;
+}
+
+.project-box td, .project-box th {
+  padding: 3px;
 }
 
 .project-box-title {
